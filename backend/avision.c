@@ -941,7 +941,8 @@ static Avision_HWEntry Avision_Device_List [] =
       AV_MULTI_CALIB_CMD | AV_ADF_BGR_ORDER_INVERT | AV_NO_BUTTON, AV_NO_TUNE_SCAN_LENGTH},
       /* comment="sheetfed scanner" */
       /* status="complete" */
-
+	// AJS See Avision.conf for other possible flags for this scanner.  These flags may be duplicates of
+	// some options included for debugging purposes: option disable-calibration, option force-a4
     { NULL, NULL,
       0x04a7, 0x047A,
       "Visioneer", "9450-G",
